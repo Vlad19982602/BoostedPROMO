@@ -1,0 +1,71 @@
+.btns {
+	height: 45.25px;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 22px;
+	&__firstbtn {
+		height: 33px;
+		border-radius: 20px;
+		border: none;
+		background-color: #FF4A32;
+		width: 205px;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 22px;
+		text-align: center;
+		margin-left: 12px;
+		color: #FFFFFF;
+		cursor: pointer;
+		transition: all 2s;
+		&:hover {
+			transform: scale(1.2);
+		}
+	}
+	&__secondbtn {
+		height: 33px;
+		border-radius: 20px;
+		border: none;
+		background-color: #FF4A32;
+		width: 205px;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 22px;
+		text-align: center;
+		color: #FFFFFF;
+		cursor: pointer;
+		transition: all 2s;
+		&:hover {
+			transform: scale(1.2);
+		}
+	}
+}
+
+.btn {
+	border-radius: 4px;
+	background-color: $main-color;
+	padding: 18px 48px 21px 48px;
+	font-weight: 900;
+	font-size: 13px;
+	border: none;
+	cursor: pointer;
+}
+
+.slider-btn {
+	position: absolute;
+	margin-top: 6%;
+	width: 3rem;
+	height: 3rem;
+	border: none;
+	padding: 0;
+	z-index: 10;
+	background-color: transparent;
+	img {
+		width: 100%;
+	}
+}
+.prev-btn {
+	left: -5px;
+}
+.next-btn {
+	right: 0px;
+}

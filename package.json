@@ -1,0 +1,30 @@
+{
+  "name": "boostedpromo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "> 1%",
+    "not dead"
+  ],
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "eslint": "^8.34.0",
+    "glob-parent": "^6.0.2",
+    "glob-stream": "^7.0.0",
+    "glob-watcher": "^5.0.5",
+    "vinyl-fs": "^3.0.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.12",
+    "core-js": "^3.28.0",
+    "gulp": "^4.0.2",
+    "webpack": "^5.75.0",
+    "webpack-stream": "^7.0.0"
+  }
+}

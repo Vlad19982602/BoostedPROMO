@@ -1,0 +1,139 @@
+.footer {
+	min-height: 400px;
+	padding-top: 20px;
+	margin-left: 100px;
+	&__wrapper {
+		min-height: 290px;
+		padding-top: 30px;
+		display: flex;
+	}
+	&__img {
+		background: url('../../img/footer/footer.png') center center/cover no-repeat;
+		width: 160px;
+		height: 134px;
+		margin-right: 240px;
+	}
+	&__item {
+		width: 380px;
+		height: 250px;
+		a {
+			text-decoration: none;
+		}
+		&-title {
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 30px;
+			color: #000000;
+		}
+		&-subdescr {
+			margin-top: 10px;
+		}
+		&-address {
+			margin-top: 19px;
+			font-weight: 400;
+			font-size: 13px;
+			line-height: 21px;
+			color: #000000;
+		}
+		&-descr {
+			display: block;
+			font-weight: 400;
+			font-size: 13px;
+			line-height: 21px;
+			color: #000000;
+			}
+		}
+		.ch {
+			transition: 0.7s all;
+			&:hover {
+				color: #FF4A32;
+				transform: scale(1.2);
+			}
+	}
+	&__bottom {
+		min-height: 70px;
+		padding: 20px 0 0 0;
+		display: flex;
+		&-prec {
+			font-weight: 400;
+			font-size: 13px;
+			line-height: 19px;
+			color: #000000;
+		}
+		&-name {
+			font-weight: 400;
+			font-size: 12px;
+			margin-left: 5px;
+			line-height: 19px;
+			color: #FF4A32;
+		}
+		&-right {
+			font-weight: 400;
+			font-size: 13px;
+			line-height: 19px;
+			color: #000000;
+		}
+		&-terms {
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 19px;
+			color: #FF4A32;
+		}
+		&-built {
+			font-weight: 400;
+			font-size: 13px;
+			line-height: 19px;
+			color: #000000;
+		}
+		&-bh {
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 19px;
+			color: #FF4A32;
+		}
+	}
+	&__links {
+		padding-left: 280px;
+		display: flex;
+		&-link1 {
+			background: url('../../icons/footer/amex.ico') center center/cover no-repeat;
+			width: 38px;
+			height: 24px;
+		}
+		&-link2 {
+			background: url('../../icons/footer/fshattle.ico') center center/cover no-repeat;
+			width: 38px;
+			height: 24px;
+		}
+		&-link3 {
+			background: url('../../icons/footer/pay.ico') center center/cover no-repeat;
+			width: 38px;
+			height: 24px;
+		}
+		&-link4 {
+			background: url('../../icons/footer/klarna.ico') center center/cover no-repeat;
+			width: 38px;
+			height: 24px;
+		}
+		&-link5 {
+			background: url('../../icons/footer/mastercard.ico') center center/cover no-repeat;
+			width: 38px;
+			height: 24px;
+		}
+		&-link6 {
+			background: url('../../icons/footer/paypal.ico') center center/cover no-repeat;
+			width: 38px;
+			height: 24px;
+		}
+		&-link7 {
+			background: url('../../icons/footer/vue.ico') center center/cover no-repeat;
+			width: 38px;
+			height: 24px;
+		}
+		&-link8 {
+			background: url('../../icons/footer/visa.ico') center center/cover no-repeat;
+			width: 38px;
+			height: 24px;
+		}
+	}
+}

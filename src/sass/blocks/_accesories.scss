@@ -1,0 +1,88 @@
+.accesories {
+	min-height: 405px;
+	padding-top: 55px;
+	&__title {
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 36px;
+		text-align: center;
+		color: #000000;
+	}
+	&__wrapper {
+		margin-top: 40px;
+		min-height: 305px;
+		display: flex;
+		justify-content: center;
+	}
+	&__img-1 {
+		background: url('../../img/accesories/acc1.jpg') center center/cover no-repeat;
+		width: 180px;
+		height: 186px;
+	}
+	&__img-2 {
+		background: url('../../img/accesories/acc2.png') center center/cover no-repeat;
+		width: 180px;
+		height: 186px;
+	}
+	&__img-3 {
+		background: url('../../img/accesories/acc3.jpg') center center/cover no-repeat;
+		width: 180px;
+		height: 186px;
+	}
+	&__img-4 {
+		background: url('../../img/accesories/acc4.jpg') center center/cover no-repeat;
+		width: 180px;
+		height: 186px;
+	}
+	&__img-5 {
+		background: url('../../img/accesories/acc5.jpg') center center/cover no-repeat;
+		width: 180px;
+		height: 186px;
+	}
+	&__img-6 {
+		background: url('../../img/accesories/acc6.png') center center/cover no-repeat;
+		width: 180px;
+		height: 186px;
+	}
+	&__img-7 {
+		background: url('../../img/accesories/acc7.jpg') center center/cover no-repeat;
+		width: 180px;
+		height: 186px;
+	}
+	&__descr {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 18px;
+		margin-top: 15px;
+		text-align: center;
+		color: #FF4A32;
+	}
+	&__prices {
+		display: flex;
+		justify-content: space-around;
+	}
+	&__price {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 18px;
+		margin-top: 10px;
+		text-align: center;
+		color: #373737;
+	}
+	&__price-old {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 18px;
+		margin-top: 10px;
+		text-align: center;
+		color: #FF2121;
+	}
+	&__crip {
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 18px;
+		margin-top: 10px;
+		text-align: center;
+		color: rgba(0, 0, 0, 0.3);
+	}
+}

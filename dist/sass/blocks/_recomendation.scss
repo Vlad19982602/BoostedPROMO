@@ -1,0 +1,31 @@
+.recomendation {
+	min-height: 308px;
+	padding-top: 15px;
+	background-color: #000;
+	&__wrapper {
+		display: grid;
+		grid-template: repeat(1, 330px) / repeat(4, 238px);
+		column-gap: 20px;
+		justify-content: center;
+	}
+	&__img {
+		display: block;
+		margin: 0 auto;
+	}
+	&__title {
+		font-weight: 700;
+		font-size: 31px;
+		line-height: 36px;
+		margin-top: 5px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	&__descr {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 22px;
+		margin-top: 25px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+}

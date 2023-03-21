@@ -1,0 +1,27 @@
+.electric {
+	margin: 44px 0px 0 0;
+	display: grid;
+	grid-template: repeat(1, 380px) / repeat(3, 340px);
+	column-gap: 30px;
+	background: aquamarine;
+	&__img {
+		width: 340px;
+		height: 380px;
+	}
+	&__title {
+		position: absolute;
+		padding-top: 66px;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 38px;
+		color: #000000;
+	}
+	&__descr {
+		position: absolute;
+		padding-top: 122px;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 30px;
+		color: #000000;
+	}
+}

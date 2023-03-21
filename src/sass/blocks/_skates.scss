@@ -1,0 +1,43 @@
+.skates {
+	height: 735.77px;
+	margin-top: 20px;
+	padding-top: 44px;
+	background: url('../../img/skates.jpg') center center/cover no-repeat;
+	&__wrapper {
+		margin-left: 50%;
+		transform: translateX(-50%);
+		display: block;
+		width: 564px;
+		height: 199px;
+	}
+	&__title {
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 19px;
+		text-align: center;
+		letter-spacing: 1px;
+		color: #000000;
+	}
+	&__subtitle {
+		font-weight: 700;
+		font-size: 45px;
+		line-height: 51px;
+		text-align: center;
+		margin-top: 11px;
+		color: #000000;
+	}
+	&__descr {
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 19px;
+		text-align: center;
+		letter-spacing: 1px;
+		margin-top: 15px;
+		color: #000000;
+	}
+	&__btn {
+		margin: 0 auto;
+		margin-top: 25px;
+		padding-top: 7px;
+	}
+}

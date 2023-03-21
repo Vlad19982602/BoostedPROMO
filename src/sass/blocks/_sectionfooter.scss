@@ -1,0 +1,10 @@
+.section__footer {
+	min-height: 83px;
+	background: #000000;
+	border-radius: 0px;
+	&-wrapper {
+		display: flex;
+		justify-content: space-around;
+		padding-top: 18px;
+	}
+}

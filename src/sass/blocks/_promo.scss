@@ -1,0 +1,28 @@
+.promo {
+	height: 810px;
+	background: url('../../img/promo/main.jpg') center center/cover no-repeat;
+	padding-top: 45px;
+	&__wrapper {
+		margin-left: 50%;
+		transform: translateX(-50%);
+		display: block;
+		width: 635px;
+		height: 160px;
+	}
+	&__title {
+		font-weight: 400;
+		font-size: 44px;
+		line-height: 51px;
+		text-align: center;
+		color: #000000;
+	}
+	&__subtitle {
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 19px;
+		margin-top: 14px;
+		text-align: center;
+		letter-spacing: 1px;
+		color: #000000;
+	}
+}
