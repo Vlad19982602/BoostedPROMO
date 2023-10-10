@@ -17,8 +17,8 @@
     "eslint": "^8.34.0",
     "glob-parent": "^6.0.2",
     "glob-stream": "^7.0.0",
-    "glob-watcher": "^5.0.5",
-    "vinyl-fs": "^3.0.3"
+    "glob-watcher": "^6.0.0",
+    "vinyl-fs": "^4.0.0"
   },
   "devDependencies": {
     "browser-sync": "^2.27.12",
